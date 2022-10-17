@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Lato', sans-serif;
+}
+
+.Cabeçalho{
+   margin: 2% 2% 2% 2%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.icons{
+    color: #5CA720;
+    cursor: pointer;
+    padding: 0px 50px 0px px;
+    display: flex;
+}
+
+.icon1 {
+    padding:0px 20px 0px 0px;
+    
+}
+
+
+#logo img{
+  height: 100%;
+  width: 100%;
+}
+
+.promo{
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+
+p{
+    margin: 2% 3% 2% 2%;
+    border-bottom: 50px;
+    border-top: 50px;
+}
+
+.preço{
+    color: #5CA720;
+}
+
+
+.container{
+    padding: 50px 50px 50px 40px;
+
+}
+
+.anuncio{
+    width: 403px;
+    height: 403px;
+    left: 70px;
+    top: 612px;
+    object-fit: cover;
+    cursor: pointer;
+    
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+footer{
+    background: #F9F9F9;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 3% 2% 2%;
+}
+
+.rodape button{
+    color: #F9F9F9;
+    background-color: #5CA720;
+    padding: 10px 20px 10px 20px;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    cursor: pointer;
+}
+
+.rodape button:hover{
+    background-color: #315c0d;
+    transition: 1s;
+}
+
+.rodape input{
+    padding: 10px 300px 10px 30px;
+    background: #FFFFFF;
+    border: 0.5px solid #D9D9D9;
+    
+}
+
+.rodape2{
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 3% 2% 2%;
+    color: #5CA720;
+    cursor: pointer;
+    
+
+}
+
+
+ @media (max-width: 999px) {
+    
+    
+    .container{
+    padding: 10px 10px 10px 10px;
+
+    }
+
+    .anuncio{
+        width: 203px;
+        height: 203px;
+        left: 70px;
+        top: 612px;
+        object-fit: cover;
+        
+    }
+
+    .rodape{
+        display: inline;
+        margin: 2% 3% 2% 2%;
+    }
+
+    footer h2{
+        display: flex;
+        justify-content: center;
+    }
+
+    .rodape input{
+        background: #FFFFFF;
+        border: 0.5px solid #D9D9D9;
+        padding: 10px 50px 10px 10px;
+        margin: 2% 5% 2% 5%;
+        width: 77.6%;
+        
+    }
+
+    .rodape button{
+        width: 90%;
+        margin: 2% 0% 2% 5%;
+        border-radius: 5px 5px 5px 5px;
+        border: none;
+
+    }
+
+
+    
+    
+   
+}
+
+
